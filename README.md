@@ -3,7 +3,8 @@ Author: XiaoLei(https://www.linkedin.com/in/xiao-lei-088422149/), Guojun Lynne H
 Environment: Windows<br>
 Video: http://www.lynnhan.me/portfolio/opengl-wonderland/<br>
 Window management: freeglut<br>
-OpenGL extension: glew<br>
+OpenGL extension:<br>
+glew<br>
 Math library: glm<br>
 Mesh loading: Assimp<br>
 User interface: imgui<br>
