@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{d174ce48-042e-463f-b146-d7a67af03a9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{44e86131-acdb-4570-8a8b-67cb623b9335}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GL">
+      <UniqueIdentifier>{75a5944a-7e94-4639-a8a3-2ac0ba3e2186}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Loader">
+      <UniqueIdentifier>{caca337f-94ae-4a3e-bb1d-9c0b511f5eb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Fragment">
+      <UniqueIdentifier>{8bfb81c9-5d31-4c5e-b59d-11b50eb4d04c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Vertex">
+      <UniqueIdentifier>{d3ba509f-e1dd-47e2-aa05-0fad5ca50b41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Geometry">
+      <UniqueIdentifier>{4d9c75a2-52ac-4889-a08d-cae55fd0fbdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenAL Extension">
+      <UniqueIdentifier>{aeb659a4-33fb-401d-80f5-66e0b70d5f21}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Shader\frag_basic.glsl">
+      <Filter>Shader\Fragment</Filter>
+    </None>
+    <None Include="Shader\frag_light.glsl">
+      <Filter>Shader\Fragment</Filter>
+    </None>
+    <None Include="Shader\frag_particle.glsl">
+      <Filter>Shader\Fragment</Filter>
+    </None>
+    <None Include="Shader\frag_shadowmap.glsl">
+      <Filter>Shader\Fragment</Filter>
+    </None>
+    <None Include="Shader\frag_skycube.glsl">
+      <Filter>Shader\Fragment</Filter>
+    </None>
+    <None Include="Shader\frag_stroke.glsl">
+      <Filter>Shader\Fragment</Filter>
+    </None>
+    <None Include="Shader\geo_stroke.glsl">
+      <Filter>Shader\Geometry</Filter>
+    </None>
+    <None Include="Shader\vert_basic.glsl">
+      <Filter>Shader\Vertex</Filter>
+    </None>
+    <None Include="Shader\vert_light.glsl">
+      <Filter>Shader\Vertex</Filter>
+    </None>
+    <None Include="Shader\vert_light_fish.glsl">
+      <Filter>Shader\Vertex</Filter>
+    </None>
+    <None Include="Shader\vert_light_leaves.glsl">
+      <Filter>Shader\Vertex</Filter>
+    </None>
+    <None Include="Shader\vert_particle.glsl">
+      <Filter>Shader\Vertex</Filter>
+    </None>
+    <None Include="Shader\vert_shadowmap.glsl">
+      <Filter>Shader\Vertex</Filter>
+    </None>
+    <None Include="Shader\vert_shadowmap_fish.glsl">
+      <Filter>Shader\Vertex</Filter>
+    </None>
+    <None Include="Shader\vert_shadowmap_leaves.glsl">
+      <Filter>Shader\Vertex</Filter>
+    </None>
+    <None Include="Shader\vert_skycube.glsl">
+      <Filter>Shader\Vertex</Filter>
+    </None>
+    <None Include="Shader\vert_stroke.glsl">
+      <Filter>Shader\Vertex</Filter>
+    </None>
+    <None Include="Shader\vert_light_water.glsl">
+      <Filter>Shader\Vertex</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="include\glad\glad.c">
+      <Filter>GL</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_demo.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_widgets.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Loader\LoadMesh.cpp">
+      <Filter>Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="Loader\LoadTexture.cpp">
+      <Filter>Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="Loader\InitShader.cpp">
+      <Filter>Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_impl_glfw_gl3.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RuntimeShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Prefab.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Particles.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LightMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LightSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Skycube.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="include\openal\framework\Win32\aldlist.cpp">
+      <Filter>OpenAL Extension</Filter>
+    </ClCompile>
+    <ClCompile Include="include\openal\framework\Win32\CWaves.cpp">
+      <Filter>OpenAL Extension</Filter>
+    </ClCompile>
+    <ClCompile Include="include\openal\framework\Win32\Framework.cpp">
+      <Filter>OpenAL Extension</Filter>
+    </ClCompile>
+    <ClCompile Include="include\openal\framework\Win32\LoadOAL.cpp">
+      <Filter>OpenAL Extension</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\imgui\imconfig.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imgui.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imgui_internal.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imstb_rectpack.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imstb_textedit.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imstb_truetype.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Loader\LoadMesh.h">
+      <Filter>Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="Loader\LoadTexture.h">
+      <Filter>Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="Loader\InitShader.h">
+      <Filter>Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imgui_impl_glfw_gl3.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="SimParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiLayout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MapReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Particles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RuntimeShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Prefab.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interact.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LightMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LightSource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Skycube.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MapWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioSource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
